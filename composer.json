@@ -1,0 +1,22 @@
+{
+  "name": "alisal92/sites-ip",
+  "description": "PHP Script Upload a CSV file with list of websites and get a CSV file with the websites, and their IP Addresses\n",
+  "minimum-stability": "stable",
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Ali",
+      "email": "ali.alsalti92@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "SitesIP\\": "inc/"
+    }
+  },
+  "require": {
+    "ext-fileinfo": "*",
+    "cocur/slugify": "^4.0",
+    "parsecsv/php-parsecsv": "^1.2"
+  }
+}
