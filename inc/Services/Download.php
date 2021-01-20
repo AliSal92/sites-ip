@@ -63,7 +63,7 @@ class Download implements ServiceInterface
             if (!move_uploaded_file( $_FILES['the-file']['tmp_name'], $this->target_file)) {
                 throw new RuntimeException('Failed to move uploaded file.');
             }
-            echo 'File is uploaded successfully.';
+            echo '';
 
             $this->export();
         } catch (RuntimeException $e) {
